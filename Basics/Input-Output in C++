@@ -1,0 +1,16 @@
+// Input/Output in C++
+// cin>> is use for taking input
+//cout<< is used for printing output
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int a;
+    string str;
+    char b;
+    cin>>a>>str>>b;
+    cout<<endl;
+    cout<<a<<" "<<str<<" "<<b<<" ";
+    return 0;
+}

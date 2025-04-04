@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int age = 21; //here age is the variable name
+    age = 22; // we can update the age even after defining
+    cout<<age; // NO ERROR
+    
+    const int agee = 21;//Const int 
+    agee = 22; // we cant update
+    cout<<agee; // Error
+    
+    //Literals are data use for representing fixed value 
+    //Four types of literals
+    /*
+    1. Integer Literal
+    2. Floating Point
+    3. Character 
+    4. String Literal
+    */
+    
+    return 0;
+}
